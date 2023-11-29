@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipkart demo</title>
+    <link rel="stylesheet" href="exercise.css">
+    <script src="https://kit.fontawesome.com/c78c09d1fd.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+<body>
+    <div class="nav_1">
+        <img src="asset/img/logo.png" alt="flipkart" title="flipkart">
+
+        <span>
+            <input type="text" name="search_box" placeholder="seacrch for products,brands and more ">
+            <i class="fa-solid fa-magnifying-glass search_icon"></i>
+        </span>
+        <nav>
+            <ul>
+                <li><a href="#">Karthick <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#">Become a Seller</a></li>
+                <li><a href="#">More <i class="fa-solid fa-angle-down"></i></a></li>
+                <li><a href="#"><i class="fa-solid fa-cart-shopping"></i> cart</a></li>
+            </ul>
+        </nav>
+
+    </div>
+    <div class="nav_2 shadow">
+     <nav>
+        <ul>
+            <li><a href="#">Electronics <i class="fa-solid fa-angle-down"></i></a></li>
+            <li><a href="#">TVs & Appliances <i class="fa-solid fa-angle-down"></i></a></li>
+            <li><a href="#">Men <i class="fa-solid fa-angle-down"></i></a></li>
+            <li><a href="#">Women <i class="fa-solid fa-angle-down"></i></a></li>
+            <li><a href="#">Baby & Kids <i class="fa-solid fa-angle-down"></i></a></li>
+            <li><a href="#">Home & Furniture <i class="fa-solid fa-angle-down"></i></a></li>
+            <li><a href="#">Sports,Books & More <i class="fa-solid fa-angle-down"></i></a></li>
+            <li><a href="#">Flights</a></li>
+            <li><a href="#">Offer Zone</a></li>
+        </ul>
+     </nav>
+    </div>
+    <section class="sidebar shadow-lg">
+        <section class="div_1">
+            <div class="filter" >
+                <span><b>Filters</b></span>
+            </div>
+        </section>
+        <section class="div_2">
+            <div class="categories ">
+                <h6>CATEGORIES</h6>
+                <p><i class="fa-solid fa-angle-left"> </i> Home Entertainment</p>
+                <p class="Telivision" title="Telivisions">Telivisions</p>
+        </div>
+        </section>
+        <section class="div_3">
+            <div class="price">
+                <h6>PRICE</h6>
+                <span></span>
+                <input type="range" name="price" id="price">
+                <p id="dot">.......</p>
+                <div id="price_range">
+                    <select name="price" id="price" class="select_1">
+                        <option value="Min">Min</option>
+                        <option value="₹15000">₹15000</option>
+                        <option value="₹30000">₹30000</option>
+                        <option value="₹40000">₹40000</option>
+                        <option value="₹50000">₹50000</option>
+                        <option value="₹60000">₹60000</option>
+                    </select>
+                    <p>to</p>
+                    <select name="price" id="price" class="select_2">
+                        <option value="₹15000">₹15000</option>
+                        <option value="₹30000">₹30000</option>
+                        <option value="₹40000">₹40000</option>
+                        <option value="₹50000">₹50000</option>
+                        <option value="₹60000">₹60000</option>
+                        <option value="₹60000+">₹60000+</option>
+                    </select>
+                </div>
+            </div>
+        </section>
+        <section class="div_4">
+            <div class="f-assured">
+             <input type="checkbox" name="" id="">
+             <img src="./asset/img/flipkart_assured.png" alt="">
+             <i class="fa-regular fa-circle-question"></i>
+            </div>
+        </section>
+        <div class="option_1">
+            <span><b>BRAND</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="option_1">
+            <span><b>SCREEN SIZE</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="option_1">
+            <span><b>IDEAL FOR VIEWING DISTANCE</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="option_1">
+            <span><b>RESOLUTION</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="option_1">
+            <span><b>SCREEN TYPE</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="option_1">
+            <span><b>SMART TV</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="option_1">
+            <span><b>OPERATING SYSTEM</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="option_1">
+            <span><b>CONNECTIVITY FEATURES</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="option_1">
+            <span><b>NUMBER OF HDMI PORTS</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="option_1">
+            <span><b>NUMBER OF USB PORTS</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="option_1">
+            <span><b>CUSTOMER RATINGS</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="option_1">
+            <span><b>OFFERS</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="option_1">
+            <span><b>GST INVOICE AVAILABLE</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="option_1">
+            <span><b>DISCOUNT</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="option_1">
+            <span><b>AVAILABILITY</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+        <div class="option_1" style="border: none;">
+            <span><b>THEME</b></span>
+            <i class="fa-solid fa-angle-down"></i>
+        </div>
+    </section>
+    <a href="#" class="guide_help">
+        <div class="help">
+            <p title="Buying Guide">Need help?</p>
+            <p id="spc" title="Buying Guide">Help me decide<i class="fa-solid fa-angle-right"></i></p>
+            <img src="./asset/img/guide _help.png" alt="Buying Guide" title="Buying Guide">
+        </div>
+    </a>
+    <div class="right shadow-lg">
+        <section class="top">
+            <ul>
+                <li><a href="#">home</a> <i class="fa-solid fa-angle-right"></i></li>
+                <li><a href="#">Home Entertainment</a> <i class="fa-solid fa-angle-right"></i></li>
+                <li><a href="#">Telivisions</a></li>
+            </ul>
+            <h6>Showing 1 - 24 of 1,045 results for "smart tv"</h6>
+            <div>
+                <ul>
+                    <li>Sort</li>
+                    <li>Relevance</li>
+                    <li><a href="#">Popularity</a></li>
+                    <li><a href="#">Price--Low to High</a></li>
+                    <li><a href="#">Price --High to Low</a></li>
+                    <li><a href="#">Newest First</a></li>
+                    <li><a href="#">Discount</a></li>
+                </ul>
+            </div>
+        </section> 
+        <section class="products">
+            <div class="product">
+                <div class="product_img">
+                    <i class="fa-solid fa-heart"></i>
+                    <img src="./asset/img/tv1.jpg" alt="tv">
+                    <input type="checkbox" name="compare" id="compare" style="margin:25px 0px 0px 15px;">
+                    <p>Add to Compare</p>
+                </div>
+                <div class="product_content">
+                    <span>Sponsored</span>
+                    <h5>Mi A Series 80 cm (32inch) HD Ready LED Smart Google TV 2023 Edition With HD|Dolby Audio|
+                        DTS:HD|...
+                    </h5>
+                    <div id="rating">
+                        <p>4.4</p><i class="fa-solid fa-star"></i>
+                    </div>
+                    <span id="review">4,78,383 Ratings & 47,956 Reviews</span>
+                    <ul class="specification">
+                        <li>Operating System: Google Tv</li>
+                        <li>HD Ready 1366 x 768 Pixels</li>
+                        <li>Launch Year: 2023</li>
+                        <li>1 Year Warranty on Product and 2 Years Warranty on Panel</li>
+                    </ul>
+                </div>
+                <div class="product_details">
+                    <div class="price">
+                        <h3>₹10,999 </h3><img src="./asset/img/flipkart_assured.png" alt="">
+                        <p><del>₹24,999</del><ins>56% off</ins></p>
+                        <p>Free Delivery</p>
+                        <h5>Save Extra With Combo Offers</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product_img">
+                    <i class="fa-solid fa-heart"></i>
+                    <img src="./asset/img/tv2.png" alt="tv">
+                    <input type="checkbox" name="compare" id="compare" style="margin:25px 0px 0px 15px;">
+                    <p>Add to Compare</p>
+                </div>
+                <div class="product_content">
+                    <span>Sponsored</span>
+                    <h5>SAMSUNG 80 cm (32inch) HD Ready LED Smart Tizen TV 2022 Edition With Bezel-free Design
+                    </h5>
+                    <div id="rating">
+                        <p>4.4</p><i class="fa-solid fa-star"></i>
+                    </div>
+                    <span id="review">1,06,088 Ratings & 8,719 Reviews</span>
+                    <ul class="specification">
+                        <li>Operating System: Tizen</li>
+                        <li>HD Ready 1366 x 768 Pixels</li>
+                        <li>Launch Year: 2022</li>
+                        <li>1 Year Comprehensive Warranty on Product and 1 Year Additional on Panel</li>
+                    </ul>
+                </div>
+                <div class="product_details">
+                    <div class="price">
+                        <h3>₹12,990 </h3><img src="./asset/img/flipkart_assured.png" alt="">
+                        <p><del>₹18,900</del><ins>31% off</ins></p>
+                        <p>Free Delivery</p>
+                        <h5>Daily Saver</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product_img">
+                    <i class="fa-solid fa-heart"></i>
+                    <img src="./asset/img/tv3.jpeg" alt="tv">
+                    <input type="checkbox" name="compare" id="compare" style="margin:25px 0px 0px 15px;">
+                    <p>Add to Compare</p>
+                </div>
+                <div class="product_content">
+                    <span>Sponsored</span>
+                    <h5>Infinix Y1 80 cm (32inch) HD Ready LED Smart Linux TV 2022 Edition With YouTube & Pre-loaded Apps, Wi...
+                    </h5>
+                    <div id="rating">
+                        <p>4.2</p><i class="fa-solid fa-star"></i>
+                    </div>
+                    <span id="review">36,978 Ratings & 4,435 Reviews</span>
+                    <ul class="specification">
+                        <li>Operating System: Linux</li>
+                        <li>HD Ready 1366 x 768 Pixels</li>
+                        <li>Launch Year: 2022</li>
+                        <li>1 Year Domestic Warranty</li>
+                    </ul>
+                </div>
+                <div class="product_details">
+                    <div class="price">
+                        <h3>₹8,499 </h3><img src="./asset/img/flipkart_assured.png" alt="">
+                        <p><del>₹16,999</del><ins>50% off</ins></p>
+                        <p>Free Delivery</p>
+                        <h5>Save Extra With Combo Offers</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product_img">
+                    <i class="fa-solid fa-heart"></i>
+                    <img src="./asset/img/tv4.jpeg" alt="tv">
+                    <input type="checkbox" name="compare" id="compare" style="margin:25px 0px 0px 15px;">
+                    <p>Add to Compare</p>
+                </div>
+                <div class="product_content">
+                    <span>Sponsored</span>
+                    <h5>Thomsan 9A Series 80 cm (32inch) HD Ready LED Smart Andriod TV
+                    </h5>
+                    <div id="rating">
+                        <p>4.3</p><i class="fa-solid fa-star"></i>
+                    </div>
+                    <span id="review">1,11,378 Ratings & 22,385 Reviews</span>
+                    <ul class="specification">
+                        <li>Operating System: Andriod</li>
+                        <li>HD Ready 1366 x 768 Pixels</li>
+                        <li>Launch Year: 2020</li>
+                        <li>1 Year Warranty on Product & 6 Months Warranty on Accessories</li>
+                    </ul>
+                </div>
+                <div class="product_details">
+                    <div class="price">
+                        <h3>₹8,888 </h3><img src="./asset/img/flipkart_assured.png" alt="">
+                        <p><del>₹14,499</del><ins>38% off</ins></p>
+                        <p>Free Delivery</p>
+                        <h5>Save Extra With Combo Offers</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product_img">
+                    <i class="fa-solid fa-heart"></i>
+                    <img src="./asset/img/tv5.jpg" alt="tv">
+                    <input type="checkbox" name="compare" id="compare" style="margin:25px 0px 0px 15px;">
+                    <p>Add to Compare</p>
+                </div>
+                <div class="product_content">
+                    <span>Sponsored</span>
+                    <h5>LG 80 cm (32inch) HD Ready LED Smart WebOS Tv</h5>
+                    <div id="rating">
+                        <p>4.4</p><i class="fa-solid fa-star"></i>
+                    </div>
+                    <span id="review">64,050 Ratings & 5,462 Reviews</span>
+                    <ul class="specification">
+                        <li>Operating System: WebOS</li>
+                        <li>HD Ready 1366 x 768 Pixels</li>
+                        <li>Launch Year: 2020</li>
+                        <li>1 Year Warranty on Product</li>
+                    </ul>
+                </div>
+                <div class="product_details">
+                    <div class="price">
+                        <h3>₹11,990 </h3><img src="./asset/img/flipkart_assured.png" alt="">
+                        <p><del>₹21,990</del><ins>45% off</ins></p>
+                        <p>Free Delivery</p>
+                        <h5>Save Extra With Combo Offers</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product_img">
+                    <i class="fa-solid fa-heart"></i>
+                    <img src="./asset/img/tv6.jpg" alt="tv">
+                    <input type="checkbox" name="compare" id="compare" style="margin:25px 0px 0px 15px;">
+                    <p>Add to Compare</p>
+                </div>
+                <div class="product_content">
+                    <span>Sponsored</span>
+                    <h5>IFFALCON by TCL 79.97cm (32inch) HD Ready LED Smart Andriod TV with Google Assistant</h5>
+                    <div id="rating">
+                        <p>4.2</p><i class="fa-solid fa-star"></i>
+                    </div>
+                    <span id="review">21,615 Ratings & 2,923 Reviews</span>
+                    <ul class="specification">
+                        <li>Operating System: Andriod</li>
+                        <li>HD Ready 1366 x 768 Pixels</li>
+                        <li>Launch Year: 2023</li>
+                        <li>1 Year Warranty on Product</li>
+                    </ul>
+                </div>
+                <div class="product_details">
+                    <div class="price">
+                        <h3>₹8,499</h3><img src="./asset/img/flipkart_assured.png" alt="">
+                        <p><del>₹19,900</del><ins>57% off</ins></p>
+                        <!-- <p>Free Delivery</p> -->
+                        <!-- <h5>Bank Offer</h5> -->
+                    </div>
+                </div>
+            </div>
+            <div class="product">
+                <div class="product_img">
+                    <i class="fa-solid fa-heart"></i>
+                    <img src="./asset/img/tv7.jpg" alt="tv">
+                    <input type="checkbox" name="compare" id="compare" style="margin:25px 0px 0px 15px;">
+                    <p>Add to Compare</p>
+                </div>
+                <div class="product_content">
+                    <span>Sponsored</span>
+                    <h5>realme 80 cm (32inch) HD Ready LED Smart Andriod TV</h5>
+                    <div id="rating">
+                        <p>4.3</p><i class="fa-solid fa-star"></i>
+                    </div>
+                    <span id="review">2,15,151 Ratings & 23,373 Reviews</span>
+                    <ul class="specification">
+                        <li>Operating System: Andriod</li>
+                        <li>HD Ready 1366 x 768 Pixels</li>
+                        <li>Launch Year: 2020</li>
+                        <li>1 Year Domestic Warranty, 2 Years on Panel</li>
+                    </ul>
+                </div>
+                <div class="product_details">
+                    <div class="price">
+                        <h3>₹11,999 </h3><img src="./asset/img/flipkart_assured.png" alt="">
+                        <p><del>₹14,999</del><ins>20% off</ins></p>
+                        <p>Free Delivery</p>
+                        <h5>Bank Offer</h5>
+                    </div>
+                </div>
+            </div>
+            <div class="page_bar">
+                <p>Page 1 of 44</p>
+                <div class="page">
+                    <ul>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">5</a></li>
+                        <li><a href="#">6</a></li>
+                        <li><a href="#">7</a></li>
+                        <li><a href="#">8</a></li>
+                        <li><a href="#">9</a></li>
+                        <li><a href="#">10</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section> 
+    </div>
+</body>
+</html>
